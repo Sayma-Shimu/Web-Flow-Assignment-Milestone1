@@ -1,25 +1,66 @@
-/* shared style--------- */
-.logo-and-button-primary{
-    color: #4E47FF;
+/* Raleway font----- */
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
+/* Inter font--------- */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style--------- */
 .banner-and-title-used-secondary{
     color: #252432;
 }
 
-button{
+.btn-primary{
     background-color: #4E47FF;
     color: #FFFFFF;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 12px 36px;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 /* header style----------- */
 header{
     background-image: url('./Assets/Hero-bg.png');
+    margin: 0 auto;
+    height: 550px;
 }
+
 
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+    
+    
     
 }
+
+nav .logo{
+    font-size: 34;
+    color: #4E47FF;
+    font-weight: bolder;
+}
+
+/* banner style---- */
+.banner{
+margin: 150px 260px;
+text-align: center;
+}
+
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+/* web flow style------ */
