@@ -170,6 +170,39 @@ padding: 50px 80px 50px 80px;
     text-align: center;
 }
 
+
+
+/* focus better styles----- */
+.focus-better{
+    background-color: #FFFFFF;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 14px;
+    padding: 71px 150px 71px 150px;
+}
+
+.focus-better-title{
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.focus-better p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000080;
+    margin-bottom: 20px;
+
+}
+
+
+.focus-better img{
+    margin-top: 15px;
+    border-radius: 48px;
+    height: 364px;
+}
+
 /* Get In Touch styles----- */
 .lets-get-in-touch{
     height: auto;
