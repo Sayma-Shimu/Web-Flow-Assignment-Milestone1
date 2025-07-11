@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: rgb(245, 248, 255);
+    background: rgb(245, 248, 255); 
 }
 
 /* Raleway font----- */
@@ -58,9 +58,6 @@ nav {
      width: 1140px;
      height: 120px;
     
-
-
-
 }
 
 nav .logo {
@@ -78,12 +75,12 @@ nav .logo {
     
 }
 
-
 .banner-title {
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 37px;
 }
+
 /* main style----- */
 main {
     max-width: 1140px;
@@ -165,4 +162,53 @@ padding: 50px 80px 50px 80px;
     font-size: 20px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
+
+/* Get In Touch styles----- */
+.lets-get-in-touch{
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 40px;
+    padding: 71px 0px 71px 0px;
+}
+
+
+.touch-title-container{
+    width: 70%;
+    align-items: center;
+}
+.get-in-touch-title{
+     font-size:97px;
+    font-weight: 700;
+    
+}
+
+.form-container{
+    width: 30%;
+}
+
+.form-container form{
+    width: 100%;
+}
+
+.form-container button{
+    width: 100%;
+}
+
+
+.lets-get-in-touch input[type='text'], .lets-get-in-touch input[type='email'], .lets-get-in-touch textarea{
+    display: block;
+     height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+    
+}
+
