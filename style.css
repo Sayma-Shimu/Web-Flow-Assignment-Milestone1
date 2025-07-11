@@ -98,7 +98,7 @@ main {
     justify-content: space-between;
     gap: 23px;
     height: 328px;
-    margin-top: 150px;
+    margin-top: 100px;
      
     
 }
@@ -128,20 +128,31 @@ main {
 /* productive-users style----- */
 .productive-users{
 background: rgba(78, 71, 255, 0.1);
+margin-top: 100px;
+border-radius: 24px;
+padding: 50px 80px 50px 80px;
 
+}
+
+.productive-users-elements-container{
+    width: 850px;
+    margin: 0 auto;
+    
 }
 
 .productive-users-title{
     font-size: 38px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 40px;
 
     
 }
 
 .productive-users-stat{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    
 }
 
 .productive-users-stat h1{
