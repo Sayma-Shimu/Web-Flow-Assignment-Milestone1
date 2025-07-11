@@ -1,23 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(245, 248, 255);
+}
+
 /* Raleway font----- */
 .raleway {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* Inter font--------- */
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* shared style--------- */
-.banner-and-title-used-secondary{
+.banner-and-title-used-secondary {
     color: #252432;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #4E47FF;
     color: #FFFFFF;
     border: none;
@@ -27,40 +35,123 @@
     font-size: 16px;
 }
 
-/* header style----------- */
-header{
-    background-image: url('./Assets/Hero-bg.png');
-    margin: 0 auto;
-    height: 550px;
+.text {
+    color: #252432;
 }
 
 
-nav{
+
+/* header style----------- */
+header {
+    background-image: url('./Assets/Hero-bg.png');
+    height: 600px;
+
+
+}
+
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 150px;
+    margin: 0 auto;
+     width: 1140px;
+     height: 120px;
     
-    
-    
+
+
+
 }
 
-nav .logo{
-    font-size: 34;
+nav .logo {
+    font-size: 34px;
     color: #4E47FF;
     font-weight: bolder;
 }
 
 /* banner style---- */
-.banner{
-margin: 150px 260px;
-text-align: center;
+.banner {
+   max-width: 900px;
+    margin: 150px 260px;
+    text-align: center;
+    height: 237px;
+    
 }
 
 
-.banner-title{
+.banner-title {
     font-size: 65px;
     font-weight: bold;
+    margin-bottom: 37px;
 }
+/* main style----- */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+    
 
 /* web flow style------ */
+.web-flow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 23px;
+    height: 328px;
+    margin-top: 150px;
+     
+    
+}
+
+.web-flow-text-container{
+    width: 500px;
+}
+
+.web-flow-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.web-flow-sub-title {
+    font-size: 24px;
+    opacity: 50%;
+    margin-bottom: 23px;
+}
+
+.web-flow-image {
+    border-radius: 48px;
+    width: 400px;
+
+}
+
+/* productive-users style----- */
+.productive-users{
+background: rgba(78, 71, 255, 0.1);
+
+}
+
+.productive-users-title{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+
+    
+}
+
+.productive-users-stat{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.productive-users-stat h1{
+    color: #4E47FF;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.productive-users-stat p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
