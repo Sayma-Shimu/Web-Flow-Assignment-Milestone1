@@ -39,6 +39,11 @@ body{
     color: #252432;
 }
 
+button:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
 
 
 /* header style----------- */
@@ -172,7 +177,6 @@ padding: 50px 80px 50px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     gap: 40px;
     padding: 71px 0px 71px 0px;
 }
@@ -203,12 +207,67 @@ padding: 50px 80px 50px 80px;
 
 .lets-get-in-touch input[type='text'], .lets-get-in-touch input[type='email'], .lets-get-in-touch textarea{
     display: block;
-     height: 64px;
-    border-radius: 5px;
-    background-color: white;
+    height: 70px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
     width: 100%;
-    margin-bottom: 24px;
-    border: none;
+    margin-bottom: 19px;
+    border: 1px solid rgb(214, 221, 237);   
     
+}
+
+::placeholder{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+}
+
+
+/* footer styles---- */
+footer{
+    width: 100%;
+    height: 400px;
+    margin-top: 14px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container{
+    width: 530px;
+    height: 220px;
+    text-align: center;
+}
+
+footer .footer-logo{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+ ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    gap: 30px;
+ }
+
+ ul a{
+    text-decoration: none;
+ }
+
+ ul li{
+    list-style: none;
+ }
+
+
+.footer-container a, p{
+    color: #8987A1;
+    font-weight: 400;
+    font-size: 16px;
 }
 
